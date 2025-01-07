@@ -32,11 +32,44 @@ function Navbar() {
         <div className="center text-center mt-4  ">
             <h1 className='text-xl md:text-2xl text-gray-500 font-medium'>AZORTE </h1>
                 <ul className='flex justify-center my-2'>
-                    <li className='mx-2 text-gray-500 text-sm md:text-base'>MEN</li>
-                    <li className='mx-2 text-gray-500 text-sm md:text-base'>WOMEN</li>
-                    <li className='mx-2 text-gray-500 text-sm md:text-base'>KIDS</li>
-                    <li className='mx-2 text-gray-500 text-sm md:text-base'>BRANDS</li>
-                </ul>
+                    <li className='mx-2 text-gray-500 text-sm md:text-base group'><a href="">MEN</a>
+                    <ul className=" hidden absolute group-hover:block  bg-white h-80 w-80 text-start py-8 px-4">
+                        <li> home </li>
+                        <li> home </li>
+                        <li> home </li>
+                        <li> home </li>
+                        <li> home </li>
+                    </ul>
+                    </li>
+
+                    <li className='mx-2 text-gray-500 text-sm md:text-base group'><a href="">WOMEN</a>
+                    <ul className=" hidden absolute group-hover:block  bg-white h-80 w-80 text-start py-8 px-4 ">
+                        <li> home </li>
+                        <li> home </li>
+                        <li> home </li>
+                        <li> home </li>
+                        <li> home </li>
+                    </ul>
+                    </li>           
+                    
+                    <li className='mx-2 text-gray-500 text-sm md:text-base group'><a href="">KIDS</a>
+                    <ul className=" hidden absolute group-hover:block  bg-white h-80 w-80 text-start py-8 px-4 ">
+                        <li> home </li>
+                        <li> home </li>
+                        <li> home </li>
+                        <li> home </li>
+                        <li> home </li>
+                    </ul>
+                    </li>                  
+                    <li className='mx-2 text-gray-500 text-sm md:text-base group'><a href="">BRANDS</a>
+                    <ul className=" hidden absolute group-hover:block  bg-white h-80 w-80 text-start py-8 px-4">
+                        <li> home </li>
+                        <li> home </li>
+                        <li> home </li>
+                        <li> home </li>
+                        <li> home </li>
+                    </ul>
+                    </li>                </ul>
            </div>
            </div>
    
